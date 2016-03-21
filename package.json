@@ -1,5 +1,5 @@
 {
-  "name": "systemjs-config-middleware",
+  "name": "middleware-systemjs-config",
   "version": "0.1.0",
   "description": "Connect middleware that dynamically generates a SystemJS config object from an npm package's dependencies.",
   "main": "index.js",
@@ -22,8 +22,8 @@
     "prepublish": "npm run clean && npm run build",
     "test": "gulp test"
   },
-  "repository": "zentrick/systemjs-config-middleware",
-  "bugs": "https://github.com/zentrick/systemjs-config-middleware/issues",
+  "repository": "zentrick/middleware-systemjs-config",
+  "bugs": "https://github.com/zentrick/middleware-systemjs-config/issues",
   "dependencies": {
     "babel-runtime": "^6.6.1",
     "npm-dependencies-to-system-config": "^0.1.1"
